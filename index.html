@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="l-header">
+        <div class="container">
+            <div>
+                <a href="#" class="nav__logo"><img src="./image/logo.svg" alt=""></a>
+            </div>
+            <nav class="nav">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link active">About</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Testimonials</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Help</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-right">
+                <a href="#signin" class="sign-in-btn nav__link">Sign In</a>
+                <a href="#signup" class="btn btn--outlined btn--small btn--rounded-full font-500 nav__link">Sign Out</a>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+    </header>
+
+    <!--About-->
+        <section class="about" id="about">
+            <div class="about__data">
+                <div class="about-left">
+                    <h1 class="about__title">Want anything to be <br>easy with <span class="about__title-color">LaslesVPN</span></h1>
+                    <p class="about__subtitle">Provide a network for all your needs with ease and fun using <b>LaslesVPN</b> discover interesting features from us.</p>
+                    <a href="#" class="button">Get Started<a>
+                </div>
+                <div class="about__img">
+                    <img src="./image/illustration-1.svg" alt="">
+                </div>
+            </div>
+       </section>
+
+        <section id="about" class="quick-stats">
+           <div class="container">
+               <div>
+                   <img src="./image/location-icon.svg" alt="location-icon">
+                   <div>
+                       <p>
+                           <b>30+</b>
+                       </p>
+                       <p>Locations</p>
+                   </div>
+               </div>
+               <div>
+                   <img src="./image/server-icon.svg" alt="server-icon">
+                   <div>
+                       <p>
+                           <b>50+</b>
+                       </p>
+                       <p>Servers</p>
+                   </div>
+               </div>
+               <div>
+                   <img src="./image/user-icon.svg" alt="user-icon">
+                   <div>
+                       <p>
+                           <b>90+</b>
+                       </p>
+                       <p>Users</p>
+                   </div>
+               </div>
+            </div>
+        </section>
+
+
+   <!--Features-->
+   <section class="features" id="features">
+       <div class="container">
+           <div class="feature-left">
+               <img src="./image/illustration-2.svg" alt="">
+           </div>
+           <div class="feature-right">
+               <h2 class="feature-title">We provide many <br> features you can use</h2>
+               <p class="feature-subtitle">You can explore the feature we provide with fun and have their own functions each features</p>
+               <ul class="feature-list">
+                   <li><i class="fa fa-check" aria-hidden="true"></i>Powerful Online Protection</li>
+                   <li><i class="fa fa-check" aria-hidden="true"></i>Internet without borders</li>
+                   <li><i class="fa fa-check" aria-hidden="true"></i>Supercharged VPN</li>
+                   <li><i class="fa fa-check" aria-hidden="true"></i>No specific time limit</li>
+               </ul>
+           </div>
+       </div>
+    </section>
+
+    <!--Pricing-->
+    <section class="plan" id="pricing">
+        <div class="container">
+            <div class="plan-header">
+                <h2 class="plan-title">Choose Your Plan</h2>
+                <p class="plan-subtitle">Let's choose the package that is best for you and explore it happily and cheerfully.</p>
+            </div>
+            <div class="plan-wrapper">
+                <div class="plans">
+                    <div class="plan-image">
+                        <img src="./image/free-plan.svg" alt="">
+                    </div>
+                    <h3>Free Plan</h3>
+                    <div class="plan-list">
+                        <ul>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Bandwitch</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Encrypted Connection</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>No Traffic Logs</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Work on All Devices</li>
+                        </ul>
+                    </div>
+                    <div class="plan-bottom">
+                        <h4>Free</h4>
+                        <a href="#" class="btn">Select</a>
+                    </div>
+                </div>
+
+                <div class="plans">
+                    <div class="plan-image">
+                        <img src="./image/free-plan.svg" alt="">
+                    </div>
+                    <h3>Standard Plan</h3>
+                    <div class="plan-list">
+                        <ul>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Bandwitch</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Encrypted Connection</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Yes Traffic Logs</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Work on All Devices</li>
+                        </ul>
+                    </div>
+                    <div class="plan-bottom">
+                        <h4>$9 / mo</h4>
+                        <a href="#" class="btn">Select</a>
+                    </div>
+                </div>
+
+                <div class="plans">
+                    <div class="plan-image">
+                        <img src="./image/free-plan.svg" alt="">
+                    </div>
+                    <h3>Premuim Plan</h3>
+                    <div class="plan-list">
+                        <ul>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Bandwitch</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Encrypted Connection</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Yes Traffic Logs</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>Work on All Devices</li>
+                        </ul>
+                    </div>
+                    <div class="plan-bottom">
+                        <h4>$12 / mo</h4>
+                        <a href="#" class="btn">Select</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--LOCATION-->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="location-header">
+                <h2 class="location-title">Huge Global Network of Fast VPN</h2>
+                <p class="location-subtitle">See LaslesVPN everywhere to make it easier for you when you move locations.</p>
+            </div>
+            <div class="map-wrapper">
+                <img src="./image/locations.svg" alt="">
+            </div>
+            <div class="sponsored">
+                <div class="sponsor">
+                    <img src="./image/netflix-logo.png" alt="netflix-logo">
+                </div>
+                <div class="sponsor">
+                    <img src="./image/reddit-logo.png" alt="reddit-logo">
+                </div>
+                <div class="sponsor">
+                    <img src="./image/amazon-logo.png" alt="amazon-logo">
+                </div>
+                <div class="sponsor">
+                    <img src="./image/discord-logo.png" alt="discord-logo">
+                </div>
+                <div class="sponsor">
+                    <img src="./image/spotify-logo.png" alt="spotify-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--TESTIMONIALS-->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="testimonial-header">
+                <h4 class="testimonial-title">Trusted By Thousands of Happy Customer</h4>
+                <p class="testimonial-subtitle">These are the stories of our customers who have joined us wih great pleasure when using this crazy feature.</p>
+            </div>
+
+            <div class="testimonial-wrapper owl-carousel owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage" style="transform: translate3d(-2232px, 0px, 0px); transition: all 0s ease 0s; width: 3906px;">
+
+                        <div class="owl-item cloned" style="width: 508px; margin-right: 50px;">
+                            <div class="testimonial item">
+                                <div class="testimonial-top">
+                                    <div class="customer-photo">
+                                        <img src="./image/customer-1.png" alt="customer photo">
+                                    </div>
+                                    <div>
+                                        <h4 class="customer-name">Viezh Robert</h4>
+                                        <p class="customer-location">Warsaw, Poland</p>
+                                    </div>
+                                    <div class="customer-rating">4.5 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                </div>
+
+                                <div class="testimonial-body">
+                                    "Wow...I am very happy to use this VPN, it turned out to be more than expectations and so far there have been no problems.LaslesVPN always the best".
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item cloned" style="width: 508px; margin-right: 50px;">
+                            <div class="testimonial item">
+                                <div class="testimonial-top">
+                                    <div class="customer-photo">
+                                        <img src="./image/customer-2.png" alt="customer photo">
+                                    </div>
+                                    <div>
+                                        <h4 class="customer-name">Yessica Christy</h4>
+                                        <p class="customer-location">Shanxi, China</p>
+                                    </div>
+                                    <div class="customer-rating">4.5 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                </div>
+
+                                <div class="testimonial-body">
+                                    "I like it because I like to travel far and still can connect with high speed".
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 508px; margin-right: 50px;">
+                            <div class="testimonial testimonial-active item">
+                                <div class="testimonial-top">
+                                    <div class="customer-photo">
+                                        <img src="./image/customer-3.png" alt="customer photo">
+                                    </div>
+                                    <div>
+                                        <h4 class="customer-name">Kim Young Jou</h4>
+                                        <p class="customer-location">Seoul, South Korea</p>
+                                    </div>
+                                    <div class="customer-rating">4.5 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                </div>
+
+                                <div class="testimonial-body">
+                                    "This is very unusual for my business that currently requires a virtual private network that has high security".
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 508px; margin-right: 50px;">
+                            <div class="testimonial item">
+                                <div class="testimonial-top">
+                                    <div class="customer-photo">
+                                        <img src="./image/customer-1.png" alt="customer photo">
+                                    </div>
+                                    <div>
+                                        <h4 class="customer-name">Viezh Robert</h4>
+                                        <p class="customer-location">Warsaw, Poland</p>
+                                    </div>
+                                    <div class="customer-rating">4.5 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                </div>
+
+                                <div class="testimonial-body">
+                                    "Wow...I am very happy to use this VPN, it turned out to be more than expectations and so far there have been no problems.LaslesVPN always the best".
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item active" style="width: 508px; margin-right: 50px;">
+                            <div class="testimonial item">
+                                <div class="testimonial-top">
+                                    <div class="customer-photo">
+                                        <img src="./image/customer-2.png" alt="customer photo">
+                                    </div>
+                                    <div>
+                                        <h4 class="customer-name">Yessica Christy</h4>
+                                        <p class="customer-location">Shanxi, China</p>
+                                    </div>
+                                    <div class="customer-rating">4.5<i class="fa fa-star" aria-hidden="true"></i></div>
+                                </div>
+
+                                <div class="testimonial-body">
+                                    "I like it because I like to travel far and still can connect with high speed".
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item cloned" style="width: 508px; margin-right: 50px;">
+                            <div class="testimonial testimonial-active item">
+                                <div class="testimonial-top">
+                                    <div class="customer-photo">
+                                        <img src="./image/customer-3.png" alt="customer photo">
+                                    </div>
+                                    <div>
+                                        <h4 class="customer-name">Kim Young Jou</h4>
+                                        <p class="customer-location">Seoul, South Korea</p>
+                                    </div>
+                                    <div class="customer-rating">4.5 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                </div>
+
+                                <div class="testimonial-body">
+                                    "This is very unusual for my business that currently requires a virtual private network that has high security".
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item cloned" style="width: 508px; margin-right: 50px;">
+                            <div class="testimonial item">
+                                <div class="testimonial-top">
+                                    <div class="customer-photo">
+                                        <img src="./image/customer-1.png" alt="customer photo">
+                                    </div>
+                                    <div>
+                                        <h4 class="customer-name">Viezh Robert</h4>
+                                        <p class="customer-location">Warsaw, Poland</p>
+                                    </div>
+                                    <div class="customer-rating">4.5 <i class="fa fa-star" aria-hidden="true"></i></div>
+                                </div>
+
+                                <div class="testimonial-body">
+                                    "Wow...I am very happy to use this VPN, it turned out to be more than expectations and so far there have been no problems.LaslesVPN always the best".
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="owl-nav disabled">
+                    <button type="button" role="presentation" class="owl-prev">
+                        <span aria-label="Previous"></span>
+                    </button>
+                    <button type="button" role="presentation" class="owl-next">
+                        <span aria-label="Next"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="container">
+                    <div class="dots">
+                        <div class="dot active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+
+                    <div class="arrows">
+                        <div class="arrow-left">
+                            <img src="./image/arrow-left.svg" alt="">
+                        </div>
+                        <div class="arrow-right">
+                            <img src="./image/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Subscribe-->
+    <div class="container" id="help">
+        <div class="subscribe">
+            <div class="subscribe-left">
+                <h2 class="subscribe-title">Subscribe Now for Get Special Features!</h2>
+                <p class="subscribe-subtitle">Let's subscribe with us and find the fun</p>
+            </div>
+            <div class="subscribe-right">
+                <a href="#" class="btn btn-cta btn--large btn--rounded">Subscribe Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <div class="footer-logo">
+                    <a href="#"><img src="./image/logo.svg" alt=""></a>
+                </div>
+                <p>LaslesVPN is a private virtual network that has unique features and high security.</p>
+
+                <div class="social-icons">
+                  <a class="social-icon" href="https://www.facebook.com" target="_blank"><img src="./image/facebook-f-brands.svg" class="logo-size" alt=""></a> 
+
+                  <a class="social-icon" href="https://www.twitter.com" target="_blank"><img src="./image/twitter-brands.svg" class="logo-size" alt=""></a> 
+
+                  <a class="social-icon" href="https://www.instagram.com" target="_blank"><img src="./image/instagram-brands.svg" class="logo-size" alt=""></a> 
+                </div>
+                <p class="footer-p">&copy; 2020 LaslesVPN</p>
+            </div>
+
+            <div>
+                <h4 class="font-500">Product</h4>
+                <ul>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Server</a></li>
+                    <li><a href="#">Countries</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-500">Engage</h4>
+                <ul>
+                    <li><a href="#">LaslesVPN?</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-500">Earn Money</h4>
+                <ul>
+                    <li><a href="#">Affliates</a></li>
+                    <li><a href="#">Become Partner</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+<script src="js/main.js"></script>
+</html>
